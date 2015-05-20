@@ -804,7 +804,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右上腕ピッチ.値" id="CWb-8E-BKM"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X9K-f8-hgv">
+                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X9K-f8-hgv">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="sPK-ki-og9"/>
                                         <connections>
@@ -851,7 +851,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右上腕ロール.値" id="xHN-rV-cm1"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="yBd-1y-tZa"/>
                                         <connections>
@@ -898,7 +898,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右前腕ピッチ.値" id="7tp-5B-qZw"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="TB6-1L-ukl"/>
                                         <connections>
@@ -945,7 +945,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左上腕ピッチ.値" id="7OT-OY-DwC"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhW-LF-Qay">
+                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DhW-LF-Qay">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="bXE-Z5-lpl"/>
                                         <connections>
@@ -1039,7 +1039,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左前腕ピッチ.値" id="Wcx-nV-bjp"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bqP-88-JTd">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqP-88-JTd">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="CeJ-An-qeD"/>
                                         <connections>
@@ -1415,7 +1415,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左大腿ピッチ.値" id="H0B-xo-pye"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eGb-ov-svW">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGb-ov-svW">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="ALU-9Z-AQu"/>
                                         <connections>
@@ -1462,7 +1462,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左大腿ロール.値" id="Cuk-dd-a2X"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zN9-Tx-Syg">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zN9-Tx-Syg">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="JOe-XP-14j"/>
                                         <connections>
@@ -1919,7 +1919,7 @@
                                                 <action selector="記録:" target="XfG-lQ-9wD" id="PMO-1Q-FMD"/>
                                             </connections>
                                         </buttonCell>
-                                        <buttonCell type="push" title="1再生" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Otn-iG-C9n">
+                                        <buttonCell type="push" title="⌘1再生" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Otn-iG-C9n">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                             <string key="keyEquivalent">1</string>
@@ -1937,7 +1937,7 @@
                                                 <action selector="記録:" target="XfG-lQ-9wD" id="juH-T2-N0W"/>
                                             </connections>
                                         </buttonCell>
-                                        <buttonCell type="push" title="2再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="1" imageScaling="proportionallyDown" inset="2" id="euh-Jq-oxa">
+                                        <buttonCell type="push" title="⌘2再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="1" imageScaling="proportionallyDown" inset="2" id="euh-Jq-oxa">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                             <string key="keyEquivalent">2</string>
@@ -1955,7 +1955,7 @@
                                                 <action selector="記録:" target="XfG-lQ-9wD" id="K8B-zh-Sds"/>
                                             </connections>
                                         </buttonCell>
-                                        <buttonCell type="push" title="3再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="2" imageScaling="proportionallyDown" inset="2" id="u3y-Zd-whw">
+                                        <buttonCell type="push" title="⌘3再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="2" imageScaling="proportionallyDown" inset="2" id="u3y-Zd-whw">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                             <string key="keyEquivalent">3</string>
@@ -1973,7 +1973,7 @@
                                                 <action selector="記録:" target="XfG-lQ-9wD" id="GPi-P4-PSn"/>
                                             </connections>
                                         </buttonCell>
-                                        <buttonCell type="push" title="4再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="3" imageScaling="proportionallyDown" inset="2" id="d9i-Kx-tvf">
+                                        <buttonCell type="push" title="⌘4再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="3" imageScaling="proportionallyDown" inset="2" id="d9i-Kx-tvf">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                             <string key="keyEquivalent">4</string>
@@ -1991,7 +1991,7 @@
                                                 <action selector="記録:" target="XfG-lQ-9wD" id="YVE-nH-6vB"/>
                                             </connections>
                                         </buttonCell>
-                                        <buttonCell type="push" title="5再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="4" imageScaling="proportionallyDown" inset="2" id="VUI-XR-jLi">
+                                        <buttonCell type="push" title="⌘5再生" bezelStyle="rounded" alignment="center" borderStyle="border" tag="4" imageScaling="proportionallyDown" inset="2" id="VUI-XR-jLi">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                             <string key="keyEquivalent">5</string>
