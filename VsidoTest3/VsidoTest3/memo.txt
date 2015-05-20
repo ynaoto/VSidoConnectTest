@@ -1,0 +1,265 @@
+SID
+0: 0x02 (  2)
+
+int16_t    rom_model_num;
+1: 0x80 (128)
+2: 0xc0 (192)
+
+uint8_t    rom_servo_ID;
+3: 0x02 (  2)
+
+int16_t    rom_cw_agl_lmt;
+4: 0xb8 (184)
+5: 0x16 ( 22)
+
+int16_t    rom_ccw_agl_lmt;
+6: 0x48 ( 72) 'H'
+7: 0xe8 (232)
+
+uint8_t    rom_damper;
+8: 0x00 (  0)
+
+uint8_t    rom_cw_cmp_margin;
+9: 0x08 (  8)
+
+uint8_t    rom_ccw_cmp_margin;
+10: 0x08 (  8)
+
+uint8_t    rom_cw_cmp_slope;
+11: 0x00 (  0)
+
+uint8_t    rom_ccw_cmp_slope;
+12: 0x00 (  0)
+
+uint8_t    rom_punch;
+13: 0x58 ( 88) 'X'
+
+int16_t    ram_goal_pos;
+14: 0x00 (  0)
+15: 0x00 (  0)
+
+int16_t    ram_goal_tim;
+16: 0x0a ( 10)
+17: 0x00 (  0)
+
+uint8_t    ram_max_torque;
+18: 0x64 (100) 'd'
+
+uint8_t    ram_torque_mode;
+19: 0x00 (  0)
+
+int16_t    ram_pres_pos;
+20: 0xfe (254)
+21: 0xfe (254)
+
+int16_t    ram_pres_time;
+22: 0xe8 (232)
+23: 0x06 (  6)
+
+int16_t    ram_pres_spd;
+24: 0xf8 (248)
+25: 0xfe (254)
+
+int16_t    ram_pres_curr;
+26: 0x00 (  0)
+27: 0x00 (  0)
+
+int16_t    ram_pres_temp;
+28: 0x26 ( 38) '&'
+29: 0x00 (  0)
+
+int16_t    ram_pres_volt;
+30: 0x24 ( 36) '$'
+31: 0x0c ( 12)
+
+uint8_t    flags;
+32: 0x00 (  0)
+
+int16_t    agl_ofset;
+33: 0x00 (  0)
+34: 0x00 (  0)
+
+uint8_t    parents_ID;
+35: 0x00 (  0)
+
+uint8_t    connected;
+36: 0x01 (  1)
+
+int16_t    read_time;
+37: 0xa4 (164)
+38: 0x24 ( 36) '$'
+
+int16_t    _ram_goal_pos;
+39: 0x00 (  0)
+40: 0x00 (  0)
+
+int16_t    __ram_goal_pos;
+41: 0x00 (  0)
+42: 0x00 (  0)
+
+int16_t    _ram_pres_pos;
+43: 0xfe (254)
+44: 0xfe (254)
+
+int8_t     _send_speed;
+45: 0x00 (  0)
+
+uint8_t    _send_cmd_time;
+46: 0x00 (  0)
+
+uint8_t    flg_min_max;
+47: 0x00 (  0)
+
+uint8_t    flg_goal_pos;
+48: 0x00 (  0)
+
+uint8_t    flg_parent_inv;
+49: 0x01 (  1)
+
+uint8_t    flg_cmp_slope;
+50: 0x00 (  0)
+
+uint8_t    flg_check_angle;
+51: 0x00 (  0)
+
+int8_t     port_type;
+52: 0x00 (  0)
+
+int8_t     servo_type;
+53: 0x01 (  1)
+
+54: 0xfb (251)
+
+
+0: 0x02 (  2)       SID
+
+int16_t    rom_model_num;
+1: 0xc0 (192)
+2: 0x02 (  2)
+
+uint8_t    rom_servo_ID;
+3: 0xb8 (184) ???
+
+int16_t    rom_cw_agl_lmt;
+4: 0x16 ( 22)
+5: 0x48 ( 72) 'H'
+
+int16_t    rom_ccw_agl_lmt;
+6: 0xe8 (232)
+7: 0x00 (  0)
+
+uint8_t    rom_damper;
+8: 0x08 (  8)
+
+uint8_t    rom_cw_cmp_margin;
+9: 0x08 (  8)
+
+uint8_t    rom_ccw_cmp_margin;
+10: 0x00 (  0)
+
+uint8_t    rom_cw_cmp_slope;
+11: 0x00 (  0)
+
+uint8_t    rom_ccw_cmp_slope;
+12: 0x58 ( 88) 'X'
+
+uint8_t    rom_punch;
+13: 0x00 (  0)
+
+int16_t    ram_goal_pos;
+14: 0x00 (  0)
+15: 0x2c ( 44) ','
+
+int16_t    ram_goal_tim;
+16: 0x00 (  0)
+17: 0x64 (100) 'd'
+
+uint8_t    ram_max_torque;
+18: 0x00 (  0)
+
+uint8_t    ram_torque_mode;
+19: 0x00 (  0)
+
+int16_t    ram_pres_pos;
+20: 0x00 (  0)
+21: 0x2c ( 44) ','
+
+int16_t    ram_pres_time;
+22: 0x00 (  0)
+23: 0xfc (252)
+
+int16_t    ram_pres_spd;
+24: 0xfe (254)
+25: 0x00 (  0)
+
+int16_t    ram_pres_curr;
+26: 0x00 (  0)
+27: 0x32 ( 50) '2'
+
+int16_t    ram_pres_temp;
+28: 0x00 (  0)
+29: 0x12 ( 18)
+
+int16_t    ram_pres_volt;
+30: 0x0c ( 12)
+31: 0x00 (  0)
+
+uint8_t    flags;
+32: 0x00 (  0)
+
+int16_t    agl_ofset;
+33: 0x00 (  0)
+34: 0x00 (  0)
+
+uint8_t    parents_ID;
+35: 0x01 (  1)
+
+uint8_t    connected;
+36: 0x9e (158)
+
+int16_t    read_time;
+37: 0x24 ( 36) '$'
+38: 0x6a (106) 'j'
+
+int16_t    _ram_goal_pos;
+39: 0x08 (  8)
+40: 0x6a (106) 'j'
+
+int16_t    __ram_goal_pos;
+41: 0x08 (  8)
+42: 0xfe (254)
+
+int16_t    _ram_pres_pos;
+43: 0xfe (254)
+44: 0x00 (  0)
+
+int8_t     _send_speed;
+45: 0x00 (  0)
+
+uint8_t    _send_cmd_time;
+46: 0x00 (  0)
+
+uint8_t    flg_min_max;
+47: 0x00 (  0)
+
+uint8_t    flg_goal_pos;
+48: 0x01 (  1)
+
+uint8_t    flg_parent_inv;
+49: 0x00 (  0)
+
+uint8_t    flg_cmp_slope;
+50: 0x00 (  0)
+
+uint8_t    flg_check_angle;
+51: 0x00 (  0)
+
+int8_t     port_type;
+52: 0x01 (  1)
+
+int8_t     servo_type;
+53: 0x00 (  0)
+
+
+
+54: 0x00 (  0)

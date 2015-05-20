@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932EB6F51ACFF45900537A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EB6F41ACFF45900537A35 /* AppDelegate.swift */; };
+		932EB6F71ACFF45900537A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EB6F61ACFF45900537A35 /* ViewController.swift */; };
+		932EB6F91ACFF45900537A35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932EB6F81ACFF45900537A35 /* Images.xcassets */; };
+		932EB6FC1ACFF45900537A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932EB6FA1ACFF45900537A35 /* Main.storyboard */; };
+		932EB7081ACFF45A00537A35 /* VsidoTest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932EB7071ACFF45A00537A35 /* VsidoTest3Tests.swift */; };
+		932EB7141AD0D7D700537A35 /* Vsido.m in Sources */ = {isa = PBXBuildFile; fileRef = 932EB7131AD0D7D700537A35 /* Vsido.m */; };
+		939880AE1ADA5A27005341E3 /* IKParamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939880AC1ADA5A27005341E3 /* IKParamsViewController.swift */; };
+		939880AF1ADA5A27005341E3 /* IKParamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939880AD1ADA5A27005341E3 /* IKParamsViewController.xib */; };
+		93C576C31AD66DDF00E0DB0A /* Speech.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C576C21AD66DDF00E0DB0A /* Speech.m */; };
+		93ED32111ADA091500889112 /* IKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ED32101ADA091500889112 /* IKViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		932EB7021ACFF45A00537A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932EB6E71ACFF45900537A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932EB6EE1ACFF45900537A35;
+			remoteInfo = VsidoTest3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		932EB6EF1ACFF45900537A35 /* VsidoTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VsidoTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932EB6F31ACFF45900537A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932EB6F41ACFF45900537A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932EB6F61ACFF45900537A35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932EB6F81ACFF45900537A35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		932EB6FB1ACFF45900537A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932EB7011ACFF45A00537A35 /* VsidoTest3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VsidoTest3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932EB7061ACFF45A00537A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932EB7071ACFF45A00537A35 /* VsidoTest3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VsidoTest3Tests.swift; sourceTree = "<group>"; };
+		932EB7111AD0D7D700537A35 /* VsidoTest3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VsidoTest3-Bridging-Header.h"; sourceTree = "<group>"; };
+		932EB7121AD0D7D700537A35 /* Vsido.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vsido.h; sourceTree = "<group>"; };
+		932EB7131AD0D7D700537A35 /* Vsido.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vsido.m; sourceTree = "<group>"; };
+		939880AC1ADA5A27005341E3 /* IKParamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKParamsViewController.swift; sourceTree = "<group>"; };
+		939880AD1ADA5A27005341E3 /* IKParamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IKParamsViewController.xib; sourceTree = "<group>"; };
+		93C576C21AD66DDF00E0DB0A /* Speech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speech.m; sourceTree = "<group>"; };
+		93C576C41AD66DED00E0DB0A /* Speech.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Speech.h; sourceTree = "<group>"; };
+		93ED32101ADA091500889112 /* IKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IKViewController.swift; sourceTree = "<group>"; };
+		93F21B5A1AD22B1B001BBE46 /* memo.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = memo.txt; path = VsidoTest3/memo.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932EB6EC1ACFF45900537A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EB6FE1ACFF45A00537A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932EB6E61ACFF45900537A35 = {
+			isa = PBXGroup;
+			children = (
+				932EB6F11ACFF45900537A35 /* VsidoTest3 */,
+				932EB7041ACFF45A00537A35 /* VsidoTest3Tests */,
+				932EB6F01ACFF45900537A35 /* Products */,
+				93F21B5A1AD22B1B001BBE46 /* memo.txt */,
+			);
+			sourceTree = "<group>";
+		};
+		932EB6F01ACFF45900537A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932EB6EF1ACFF45900537A35 /* VsidoTest3.app */,
+				932EB7011ACFF45A00537A35 /* VsidoTest3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932EB6F11ACFF45900537A35 /* VsidoTest3 */ = {
+			isa = PBXGroup;
+			children = (
+				932EB6F41ACFF45900537A35 /* AppDelegate.swift */,
+				932EB6F61ACFF45900537A35 /* ViewController.swift */,
+				93ED32101ADA091500889112 /* IKViewController.swift */,
+				932EB7121AD0D7D700537A35 /* Vsido.h */,
+				932EB7131AD0D7D700537A35 /* Vsido.m */,
+				93C576C41AD66DED00E0DB0A /* Speech.h */,
+				93C576C21AD66DDF00E0DB0A /* Speech.m */,
+				932EB6F81ACFF45900537A35 /* Images.xcassets */,
+				932EB6FA1ACFF45900537A35 /* Main.storyboard */,
+				939880AC1ADA5A27005341E3 /* IKParamsViewController.swift */,
+				939880AD1ADA5A27005341E3 /* IKParamsViewController.xib */,
+				932EB6F21ACFF45900537A35 /* Supporting Files */,
+				932EB7111AD0D7D700537A35 /* VsidoTest3-Bridging-Header.h */,
+			);
+			path = VsidoTest3;
+			sourceTree = "<group>";
+		};
+		932EB6F21ACFF45900537A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				932EB6F31ACFF45900537A35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		932EB7041ACFF45A00537A35 /* VsidoTest3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				932EB7071ACFF45A00537A35 /* VsidoTest3Tests.swift */,
+				932EB7051ACFF45A00537A35 /* Supporting Files */,
+			);
+			path = VsidoTest3Tests;
+			sourceTree = "<group>";
+		};
+		932EB7051ACFF45A00537A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				932EB7061ACFF45A00537A35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932EB6EE1ACFF45900537A35 /* VsidoTest3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932EB70B1ACFF45A00537A35 /* Build configuration list for PBXNativeTarget "VsidoTest3" */;
+			buildPhases = (
+				932EB6EB1ACFF45900537A35 /* Sources */,
+				932EB6EC1ACFF45900537A35 /* Frameworks */,
+				932EB6ED1ACFF45900537A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VsidoTest3;
+			productName = VsidoTest3;
+			productReference = 932EB6EF1ACFF45900537A35 /* VsidoTest3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932EB7001ACFF45A00537A35 /* VsidoTest3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932EB70E1ACFF45A00537A35 /* Build configuration list for PBXNativeTarget "VsidoTest3Tests" */;
+			buildPhases = (
+				932EB6FD1ACFF45A00537A35 /* Sources */,
+				932EB6FE1ACFF45A00537A35 /* Frameworks */,
+				932EB6FF1ACFF45A00537A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932EB7031ACFF45A00537A35 /* PBXTargetDependency */,
+			);
+			name = VsidoTest3Tests;
+			productName = VsidoTest3Tests;
+			productReference = 932EB7011ACFF45A00537A35 /* VsidoTest3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932EB6E71ACFF45900537A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Naoto Yoshioka";
+				TargetAttributes = {
+					932EB6EE1ACFF45900537A35 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					932EB7001ACFF45A00537A35 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 932EB6EE1ACFF45900537A35;
+					};
+				};
+			};
+			buildConfigurationList = 932EB6EA1ACFF45900537A35 /* Build configuration list for PBXProject "VsidoTest3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932EB6E61ACFF45900537A35;
+			productRefGroup = 932EB6F01ACFF45900537A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932EB6EE1ACFF45900537A35 /* VsidoTest3 */,
+				932EB7001ACFF45A00537A35 /* VsidoTest3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932EB6ED1ACFF45900537A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EB6F91ACFF45900537A35 /* Images.xcassets in Resources */,
+				932EB6FC1ACFF45900537A35 /* Main.storyboard in Resources */,
+				939880AF1ADA5A27005341E3 /* IKParamsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EB6FF1ACFF45A00537A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932EB6EB1ACFF45900537A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EB7141AD0D7D700537A35 /* Vsido.m in Sources */,
+				93ED32111ADA091500889112 /* IKViewController.swift in Sources */,
+				932EB6F71ACFF45900537A35 /* ViewController.swift in Sources */,
+				932EB6F51ACFF45900537A35 /* AppDelegate.swift in Sources */,
+				939880AE1ADA5A27005341E3 /* IKParamsViewController.swift in Sources */,
+				93C576C31AD66DDF00E0DB0A /* Speech.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932EB6FD1ACFF45A00537A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932EB7081ACFF45A00537A35 /* VsidoTest3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932EB7031ACFF45A00537A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932EB6EE1ACFF45900537A35 /* VsidoTest3 */;
+			targetProxy = 932EB7021ACFF45A00537A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		932EB6FA1ACFF45900537A35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932EB6FB1ACFF45900537A35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932EB7091ACFF45A00537A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932EB70A1ACFF45A00537A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		932EB70C1ACFF45A00537A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VsidoTest3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VsidoTest3/VsidoTest3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932EB70D1ACFF45A00537A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VsidoTest3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VsidoTest3/VsidoTest3-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		932EB70F1ACFF45A00537A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VsidoTest3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VsidoTest3.app/Contents/MacOS/VsidoTest3";
+			};
+			name = Debug;
+		};
+		932EB7101ACFF45A00537A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VsidoTest3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VsidoTest3.app/Contents/MacOS/VsidoTest3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932EB6EA1ACFF45900537A35 /* Build configuration list for PBXProject "VsidoTest3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EB7091ACFF45A00537A35 /* Debug */,
+				932EB70A1ACFF45A00537A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932EB70B1ACFF45A00537A35 /* Build configuration list for PBXNativeTarget "VsidoTest3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EB70C1ACFF45A00537A35 /* Debug */,
+				932EB70D1ACFF45A00537A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932EB70E1ACFF45A00537A35 /* Build configuration list for PBXNativeTarget "VsidoTest3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932EB70F1ACFF45A00537A35 /* Debug */,
+				932EB7101ACFF45A00537A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932EB6E71ACFF45900537A35 /* Project object */;
+}
