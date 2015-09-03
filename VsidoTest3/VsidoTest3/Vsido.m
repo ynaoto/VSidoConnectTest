@@ -120,6 +120,21 @@
 
 @end
 
+@implementation VIDGetReq
+
+-(id)initWithVid:(uint8_t)vid
+{
+    NSAssert1(0 <= vid && vid <= 23, @"VID out of range (%d)", vid);
+    
+    self = [super init];
+    if (self) {
+        _vid = vid;
+    }
+    return self;
+}
+
+@end
+
 @implementation IOSetReq
 @end
 
@@ -523,10 +538,14 @@ static Byte byte2(int n)
 }
 
 #pragma mark 各種変数(VID)要求
--(void)vsido_g:(NSArray *)vids
+-(void)vsido_g:(NSArray *)vidGetReq
 {
-    NSLog(@"%s: not implemented yet", __PRETTY_FUNCTION__);
-    abort();
+    NSMutableArray *data = [NSMutableArray array];
+    for (int i = 0; i < vidGetReq.count; i++) {
+        VIDSetReq *req = vidGetReq[i];
+        [data addObject:@(req.vid)];
+    }
+    [self send:'g' data:data];
 }
 
 #pragma mark フラッシュ書込要求

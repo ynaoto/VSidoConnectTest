@@ -683,7 +683,7 @@
                                 </connections>
                             </button>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="yhY-bZ-NNC" userLabel="腰ピッチ">
-                                <rect key="frame" x="20" y="610" width="699" height="17"/>
+                                <rect key="frame" x="20" y="597" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="z2M-IA-czo" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -729,11 +729,11 @@
                                     <constraint firstItem="z2M-IA-czo" firstAttribute="height" secondItem="yhY-bZ-NNC" secondAttribute="height" id="xhb-QS-uNh"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="eAx-wP-06a" userLabel="首ヨー">
-                                <rect key="frame" x="20" y="589" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eAx-wP-06a" userLabel="首ヨー">
+                                <rect key="frame" x="20" y="575" width="699" height="18"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8fJ-y0-7qf" userLabel="ラベル">
-                                        <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
+                                        <rect key="frame" x="-2" y="0.5" width="82" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="8fJ-y0-7qf" secondAttribute="height" multiplier="78:17" id="8Fp-Gz-sOc"/>
                                         </constraints>
@@ -757,8 +757,8 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="首ヨー.値" id="JGm-S0-qJS"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ax0-Oi-swn">
-                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ax0-Oi-swn">
+                                        <rect key="frame" x="132" y="-1" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="itz-Ui-HUg"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="首ヨー.値" id="dQT-tD-ae4"/>
@@ -776,8 +776,8 @@
                                     <constraint firstItem="8fJ-y0-7qf" firstAttribute="centerY" secondItem="Cdz-RJ-caw" secondAttribute="centerY" id="xhN-rJ-wR7"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="fUS-bi-E4d" userLabel="右上腕ピッチ">
-                                <rect key="frame" x="20" y="556" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fUS-bi-E4d" userLabel="右上腕ピッチ">
+                                <rect key="frame" x="20" y="542" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8GQ-zs-YBU" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -805,7 +805,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="X9K-f8-hgv">
-                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="sPK-ki-og9"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右上腕ピッチ.値" id="TLq-5J-Vzn"/>
@@ -823,8 +823,8 @@
                                     <constraint firstItem="8GQ-zs-YBU" firstAttribute="height" secondItem="fUS-bi-E4d" secondAttribute="height" id="ydA-br-0c7"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="wdk-31-LJL" userLabel="右上腕ロール">
-                                <rect key="frame" x="20" y="535" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdk-31-LJL" userLabel="右上腕ロール">
+                                <rect key="frame" x="20" y="521" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="koc-Fk-YrI" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -852,7 +852,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
-                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="yBd-1y-tZa"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右上腕ロール.値" id="YY7-Dj-lMd"/>
@@ -870,8 +870,8 @@
                                     <constraint firstItem="koc-Fk-YrI" firstAttribute="height" secondItem="wdk-31-LJL" secondAttribute="height" id="htN-W7-Yff"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="9ba-Lo-SrE" userLabel="右前腕ピッチ">
-                                <rect key="frame" x="20" y="514" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ba-Lo-SrE" userLabel="右前腕ピッチ">
+                                <rect key="frame" x="20" y="500" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="y6X-9S-quM" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -899,7 +899,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
-                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="TB6-1L-ukl"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右前腕ピッチ.値" id="NQk-N5-2or"/>
@@ -917,8 +917,8 @@
                                     <constraint firstAttribute="trailing" secondItem="rEn-m0-kxt" secondAttribute="trailing" id="zTK-Bx-T0N"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="gTT-62-kWg" userLabel="左上腕ピッチ">
-                                <rect key="frame" x="20" y="481" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gTT-62-kWg" userLabel="左上腕ピッチ">
+                                <rect key="frame" x="20" y="467" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Lzj-hD-jPe" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -946,7 +946,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DhW-LF-Qay">
-                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="bXE-Z5-lpl"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左上腕ピッチ.値" id="v3o-pS-l0u"/>
@@ -964,8 +964,8 @@
                                     <constraint firstItem="6Vs-e2-aeP" firstAttribute="centerY" secondItem="DhW-LF-Qay" secondAttribute="centerY" id="qcX-ST-KeQ"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="7sS-IA-bEE" userLabel="左上腕ロール">
-                                <rect key="frame" x="20" y="460" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7sS-IA-bEE" userLabel="左上腕ロール">
+                                <rect key="frame" x="20" y="446" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y7i-E9-S5c" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -993,7 +993,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="98d-8X-1cb">
-                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="0lF-1b-MNQ"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左上腕ロール.値" id="nAN-Ju-nii"/>
@@ -1011,8 +1011,8 @@
                                     <constraint firstAttribute="centerY" secondItem="Y7i-E9-S5c" secondAttribute="centerY" id="oAG-dp-4B8"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="cBU-UF-DDi" userLabel="左前腕ピッチ">
-                                <rect key="frame" x="20" y="439" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cBU-UF-DDi" userLabel="左前腕ピッチ">
+                                <rect key="frame" x="20" y="425" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="AHM-LA-WZ9" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1058,8 +1058,8 @@
                                     <constraint firstItem="AHM-LA-WZ9" firstAttribute="centerY" secondItem="DGZ-KP-Zpw" secondAttribute="centerY" id="xml-Ng-K73"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="0Wo-wP-0fo" userLabel="右大腿ヨー">
-                                <rect key="frame" x="20" y="406" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Wo-wP-0fo" userLabel="右大腿ヨー">
+                                <rect key="frame" x="20" y="392" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YDq-NQ-U3i" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1105,8 +1105,8 @@
                                     <constraint firstItem="YDq-NQ-U3i" firstAttribute="height" secondItem="0Wo-wP-0fo" secondAttribute="height" id="juJ-B2-6EA"/>
                                 </constraints>
                             </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="UB8-NY-JOG" userLabel="右大腿ピッチ">
-                                <rect key="frame" x="20" y="385" width="699" height="17"/>
+                            <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UB8-NY-JOG" userLabel="右大腿ピッチ">
+                                <rect key="frame" x="20" y="371" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZNZ-zw-6BY" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1134,7 +1134,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3fP-k6-Vkk">
-                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="rBP-Sh-lw6"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右大腿ピッチ.値" id="TxJ-Jd-rXf"/>
@@ -1153,7 +1153,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="JWi-cH-IdT" userLabel="右大腿ロール">
-                                <rect key="frame" x="20" y="364" width="699" height="17"/>
+                                <rect key="frame" x="20" y="351" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CjI-TI-b77" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1200,7 +1200,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="Te4-Bs-WWM" userLabel="右膝ピッチ">
-                                <rect key="frame" x="20" y="343" width="699" height="17"/>
+                                <rect key="frame" x="20" y="330" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="P76-V2-Rov" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1247,7 +1247,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="nCq-HY-R8i" userLabel="右足ピッチ">
-                                <rect key="frame" x="20" y="322" width="699" height="17"/>
+                                <rect key="frame" x="20" y="309" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="a0M-9Q-frz" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1294,7 +1294,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="3Lh-Eu-IKH" userLabel="右足ロール">
-                                <rect key="frame" x="20" y="301" width="699" height="17"/>
+                                <rect key="frame" x="20" y="288" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jNb-Ph-sHJ" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1341,7 +1341,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="L57-tM-sjg" userLabel="左大腿ヨー">
-                                <rect key="frame" x="20" y="268" width="699" height="17"/>
+                                <rect key="frame" x="20" y="255" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="64I-OQ-maC" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1388,7 +1388,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="erE-e8-LJr" userLabel="左大腿ピッチ">
-                                <rect key="frame" x="20" y="247" width="699" height="17"/>
+                                <rect key="frame" x="20" y="234" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="axj-gr-jHN" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1435,7 +1435,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="oxZ-H7-fAD" userLabel="左大腿ロール">
-                                <rect key="frame" x="20" y="226" width="699" height="17"/>
+                                <rect key="frame" x="20" y="213" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6YU-23-Dff" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1482,7 +1482,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="khM-Dv-42Z" userLabel="左膝ピッチ">
-                                <rect key="frame" x="20" y="205" width="699" height="17"/>
+                                <rect key="frame" x="20" y="192" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wj1-17-ahJ" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1529,7 +1529,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="D0U-WH-1an" userLabel="左足ピッチ">
-                                <rect key="frame" x="20" y="184" width="699" height="17"/>
+                                <rect key="frame" x="20" y="171" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IeQ-YO-xWR" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1576,7 +1576,7 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="zNt-N1-0DQ" userLabel="左足ロール">
-                                <rect key="frame" x="20" y="163" width="699" height="17"/>
+                                <rect key="frame" x="20" y="150" width="699" height="17"/>
                                 <subviews>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QhQ-7y-X2r" userLabel="ラベル">
                                         <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
@@ -1623,13 +1623,13 @@
                                 </constraints>
                             </customView>
                             <box autoresizesSubviews="NO" title="Box" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="VX0-Bn-BvW">
-                                <rect key="frame" x="92" y="636" width="630" height="146"/>
+                                <rect key="frame" x="92" y="624" width="630" height="158"/>
                                 <view key="contentView">
-                                    <rect key="frame" x="1" y="1" width="628" height="144"/>
+                                    <rect key="frame" x="1" y="1" width="628" height="156"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <customView translatesAutoresizingMaskIntoConstraints="NO" id="UAR-DQ-fKh" userLabel="CYC Custom View">
-                                            <rect key="frame" x="10" y="113" width="100" height="22"/>
+                                            <rect key="frame" x="10" y="125" width="100" height="22"/>
                                             <subviews>
                                                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OiA-iO-mEX">
                                                     <rect key="frame" x="6" y="3" width="37" height="17"/>
@@ -1680,7 +1680,7 @@
                                             </constraints>
                                         </customView>
                                         <matrix verticalHuggingPriority="750" mode="highlight" allowsEmptySelection="NO" autosizesCells="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZc-UF-G1z" userLabel="コマンド群Matrix">
-                                            <rect key="frame" x="118" y="11" width="318" height="124"/>
+                                            <rect key="frame" x="118" y="-1" width="318" height="156"/>
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                             <size key="cellSize" width="159" height="31"/>
                                             <buttonCell key="prototype" type="push" title="IK制御" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Oy5-RR-xkR" userLabel="???">
@@ -1717,6 +1717,13 @@
                                                             <action selector="IK制御:" target="XfG-lQ-9wD" id="AU4-CF-jcR"/>
                                                         </connections>
                                                     </buttonCell>
+                                                    <buttonCell type="push" title="バランサーON" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3LN-uW-VVJ">
+                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                        <connections>
+                                                            <action selector="バランサーON:" target="XfG-lQ-9wD" id="0au-Rx-bU6"/>
+                                                        </connections>
+                                                    </buttonCell>
                                                 </column>
                                                 <column>
                                                     <buttonCell type="push" title="*フィードバック ID 設定" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="VmK-zo-UYq">
@@ -1740,18 +1747,25 @@
                                                             <action selector="サーボ情報要求:" target="XfG-lQ-9wD" id="6ls-oS-xfQ"/>
                                                         </connections>
                                                     </buttonCell>
-                                                    <buttonCell type="push" title="オートバランサー" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IIT-Oy-FHh">
-                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
+                                                    <buttonCell type="push" title="バランサー取得" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IIT-Oy-FHh">
+                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                         <connections>
-                                                            <action selector="オートバランサー設定:" target="XfG-lQ-9wD" id="eVt-Ht-FIm"/>
+                                                            <action selector="バランサー取得:" target="XfG-lQ-9wD" id="CJC-Xt-j5X"/>
+                                                        </connections>
+                                                    </buttonCell>
+                                                    <buttonCell type="push" title="バランサーOFF" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Wy8-2a-BjS">
+                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                        <connections>
+                                                            <action selector="バランサーOFF:" target="XfG-lQ-9wD" id="ERJ-ps-3OY"/>
                                                         </connections>
                                                     </buttonCell>
                                                 </column>
                                             </cells>
                                         </matrix>
                                         <box autoresizesSubviews="NO" title="移動情報指定" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="21o-vQ-Y10">
-                                            <rect key="frame" x="441" y="11" width="146" height="124"/>
+                                            <rect key="frame" x="441" y="23" width="146" height="124"/>
                                             <view key="contentView">
                                                 <rect key="frame" x="1" y="1" width="144" height="108"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1894,13 +1908,13 @@
                                 </view>
                                 <constraints>
                                     <constraint firstItem="SZc-UF-G1z" firstAttribute="leading" secondItem="UAR-DQ-fKh" secondAttribute="trailing" constant="8" id="ASW-7a-9sT"/>
-                                    <constraint firstAttribute="height" constant="140" id="As9-If-xQ7"/>
+                                    <constraint firstAttribute="height" constant="152" id="As9-If-xQ7"/>
                                     <constraint firstItem="UAR-DQ-fKh" firstAttribute="leading" secondItem="VX0-Bn-BvW" secondAttribute="leading" constant="8" id="M4D-lS-FxA"/>
                                     <constraint firstItem="21o-vQ-Y10" firstAttribute="top" secondItem="VX0-Bn-BvW" secondAttribute="top" constant="8" id="P6j-nc-yL5"/>
-                                    <constraint firstItem="SZc-UF-G1z" firstAttribute="top" secondItem="VX0-Bn-BvW" secondAttribute="top" constant="8" id="RRm-2M-lBf"/>
+                                    <constraint firstItem="SZc-UF-G1z" firstAttribute="top" secondItem="VX0-Bn-BvW" secondAttribute="top" id="RRm-2M-lBf"/>
                                     <constraint firstItem="21o-vQ-Y10" firstAttribute="leading" secondItem="SZc-UF-G1z" secondAttribute="trailing" constant="8" id="ekH-yT-1IJ"/>
                                     <constraint firstItem="UAR-DQ-fKh" firstAttribute="top" secondItem="VX0-Bn-BvW" secondAttribute="top" constant="8" id="hbu-hb-3S9"/>
-                                    <constraint firstAttribute="bottom" secondItem="SZc-UF-G1z" secondAttribute="bottom" constant="8" id="rAc-cc-xC3"/>
+                                    <constraint firstAttribute="bottom" secondItem="SZc-UF-G1z" secondAttribute="bottom" constant="-4" id="rAc-cc-xC3"/>
                                 </constraints>
                                 <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -2019,7 +2033,7 @@
                             <constraint firstItem="gfY-m5-Gqz" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="6PU-ee-TDu"/>
                             <constraint firstAttribute="trailing" secondItem="eAx-wP-06a" secondAttribute="trailing" constant="20" id="6kd-xu-XkZ"/>
                             <constraint firstItem="zNt-N1-0DQ" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="7K9-xI-7yy"/>
-                            <constraint firstItem="yhY-bZ-NNC" firstAttribute="top" secondItem="VX0-Bn-BvW" secondAttribute="bottom" constant="13" id="9Jr-wl-lR9"/>
+                            <constraint firstItem="yhY-bZ-NNC" firstAttribute="top" secondItem="VX0-Bn-BvW" secondAttribute="bottom" constant="14" id="9Jr-wl-lR9"/>
                             <constraint firstItem="oxZ-H7-fAD" firstAttribute="top" secondItem="erE-e8-LJr" secondAttribute="bottom" constant="4" id="9S8-R2-K5Y"/>
                             <constraint firstItem="gTT-62-kWg" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="Av2-pr-JUc"/>
                             <constraint firstItem="fUS-bi-E4d" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="Ctn-ec-M1X"/>

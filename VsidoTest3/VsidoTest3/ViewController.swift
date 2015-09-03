@@ -239,8 +239,18 @@ class ViewController: NSViewController, VsidoDelegate {
         vsido.vsido_d([req])
     }
 
-    @IBAction func オートバランサー設定(sender: AnyObject) {
+    @IBAction func バランサー取得(sender: AnyObject) {
+        let req = VIDGetReq(vid: 12) // VID_Barancer_Flag
+        vsido.vsido_g([req])
+    }
+
+    @IBAction func バランサーON(sender: AnyObject) {
         let req = VIDSetReq(vid: 12, vdt_uint8: 1) // VID_Barancer_Flag
+        vsido.vsido_s([req])
+    }
+    
+    @IBAction func バランサーOFF(sender: AnyObject) {
+        let req = VIDSetReq(vid: 12, vdt_uint8: 0) // VID_Barancer_Flag
         vsido.vsido_s([req])
     }
 

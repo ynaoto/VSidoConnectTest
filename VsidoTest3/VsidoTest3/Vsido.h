@@ -74,6 +74,14 @@
 
 @end
 
+@interface VIDGetReq : NSObject
+
+@property (readonly) uint8_t vid;
+
+-(id)initWithVid:(uint8_t)vid;
+
+@end
+
 @interface IOSetReq : NSObject
 
 @property (readonly) uint8_t iid;
@@ -197,7 +205,7 @@ typedef struct __attribute__((packed)) {
 -(void)vsido_r:(FeedbackGetReq*)feedbackGetReq; // フィードバック要求
 -(void)vsido_d:(NSArray*)servoInfoGetReq; // サーボ情報要求
 -(void)vsido_s:(NSArray*)vidSetReq; // 各種変数(VID)設定
--(void)vsido_g:(NSArray*)vids; // 各種変数(VID)要求
+-(void)vsido_g:(NSArray*)vidGetReq; // 各種変数(VID)要求
 -(void)vsido_w; // フラッシュ書込要求
 -(void)vsido_i:(NSArray*)ioSetReq; // IO設定
 -(void)vsido_p:(NSArray*)pwmSetReq; // PWM設定
