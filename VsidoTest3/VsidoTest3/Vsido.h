@@ -113,28 +113,29 @@
 @end
 
 typedef struct __attribute__((packed)) {
-    uint8_t    VID_RS485_Baudrate;
-    uint8_t    VID_TTL_Baudrate;
-    uint8_t    VID_RS232_Baudrate; // dup???
-    uint8_t    VID_IO_PA_IO_Mode;
-    uint8_t    VID_IO_PA_Analog_Mode;
-    uint8_t    VID_IO_PA_PWM;
-    uint16_t   VID_IO_PA_PWM_CYCLE;
-    uint8_t    VID_Through_Port;
-    uint8_t    VID_Servo_Type_RS485;
-    uint8_t    VID_Servo_Type_TTL;
-    uint8_t    VID_IMU_Type;
-    uint8_t    VID_Barancer_Flag;
-    //uint8_t    VID_RS232_Baudrate; // dup???
-    uint8_t    VID_Theta_Th;
-    uint8_t    VID_Cycletime;
-    uint8_t    VID_Min_Cmp;
-    uint8_t    VID_Flag_Ack;
-    uint8_t    VID_Volt_Th;
-    uint8_t    VID_Initialize_Torque;
-    uint8_t    VID_Initialize_Angle;
-    uint8_t    VID_Inspection_Flag;
-    uint8_t    VID_Inspection_Type;
+    uint8_t    VID_RS485_Baudrate;  // 0
+    uint8_t    VID_TTL_Baudrate;    // 1
+    uint8_t    VID_RS232_Baudrate;  // 2
+    uint8_t    VID_IO_PA_IO_Mode;   // 3
+    uint8_t    VID_IO_PA_Analog_Mode; // 4
+    uint8_t    VID_IO_PA_PWM;       // 5
+    uint16_t   VID_IO_PA_PWM_CYCLE; // 6, 7
+    uint8_t    VID_Through_Port;    // 8
+    uint8_t    VID_Servo_Type_RS485; // 9
+    uint8_t    VID_Servo_Type_TTL;  // 10
+    uint8_t    VID_IMU_Type;        // 11
+    uint8_t    VID_Barancer_Flag;   // 12
+    uint8_t    VID_Theta_Th;        // 13
+    uint8_t    VID_Cycletime;       // 14
+    uint8_t    VID_Min_Cmp;         // 15
+    uint8_t    VID_Flag_Ack;        // 16
+    uint8_t    VID_Volt_Th;         // 17
+    uint8_t    VID_Initialize_Torque; // 18
+    uint8_t    VID_Initialize_Angle; // 19
+    uint8_t    VID_Inspection_Flag; // 20
+    uint8_t    VID_Inspection_Type; // 21
+    uint8_t    VID_Robot_Model;     // 22
+    uint8_t    VID_UID_Flag;        // 23
 } RCVid;
 
 typedef struct __attribute__((packed)) {

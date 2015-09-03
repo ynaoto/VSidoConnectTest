@@ -238,7 +238,12 @@ class ViewController: NSViewController, VsidoDelegate {
         let req = ServoInfoGetReq(sid: 2, dad: 0, dln: 54)
         vsido.vsido_d([req])
     }
-    
+
+    @IBAction func オートバランサー設定(sender: AnyObject) {
+        let req = VIDSetReq(vid: 12, vdt_uint8: 1) // VID_Barancer_Flag
+        vsido.vsido_s([req])
+    }
+
     @IBAction func 移動情報指定(sender: AnyObject) {
         let userDafeults = NSUserDefaults.standardUserDefaults()
         let 前後の速度 = userDafeults.objectForKey("前後の速度") as! Int + 100

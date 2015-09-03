@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7702"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -851,7 +851,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右上腕ロール.値" id="xHN-rV-cm1"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
+                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="yBd-1y-tZa"/>
                                         <connections>
@@ -898,7 +898,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右前腕ピッチ.値" id="7tp-5B-qZw"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
+                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="TB6-1L-ukl"/>
                                         <connections>
@@ -1180,7 +1180,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右大腿ロール.値" id="0ar-6c-Dgl"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="O5g-RP-rXL">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O5g-RP-rXL">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="xEP-Pl-Pf5"/>
                                         <connections>
@@ -1740,9 +1740,12 @@
                                                             <action selector="サーボ情報要求:" target="XfG-lQ-9wD" id="6ls-oS-xfQ"/>
                                                         </connections>
                                                     </buttonCell>
-                                                    <buttonCell type="push" title="(未使用)" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IIT-Oy-FHh">
-                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                    <buttonCell type="push" title="オートバランサー" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="IIT-Oy-FHh">
+                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES" changeBackground="YES" changeGray="YES"/>
                                                         <font key="font" metaFont="system"/>
+                                                        <connections>
+                                                            <action selector="オートバランサー設定:" target="XfG-lQ-9wD" id="eVt-Ht-FIm"/>
+                                                        </connections>
                                                     </buttonCell>
                                                 </column>
                                             </cells>
