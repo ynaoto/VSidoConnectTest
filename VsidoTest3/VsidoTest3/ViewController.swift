@@ -253,6 +253,10 @@ class ViewController: NSViewController, VsidoDelegate {
         let req = VIDSetReq(vid: 12, vdt_uint8: 0) // VID_Barancer_Flag
         vsido.vsido_s([req])
     }
+    
+    @IBAction func フラッシュ書込(sender: AnyObject) {
+        vsido.vsido_w()
+    }
 
     @IBAction func 移動情報指定(sender: AnyObject) {
         let userDafeults = NSUserDefaults.standardUserDefaults()

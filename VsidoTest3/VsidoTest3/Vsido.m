@@ -311,7 +311,7 @@ typedef NS_ENUM(int, ReceiveDataStatus) {
                 _dataSum = a;
                 _receiveDataStatus = EXPECTING_OP;
             } else {
-                NSLog(@"STじゃない。変なデータだ。");
+                NSLog(@"STじゃない。変なデータだ。0x%02x (%3d)", a, a);
             }
         } else if (_receiveDataStatus == EXPECTING_OP) {
             _receivedOp = a;
@@ -551,8 +551,7 @@ static Byte byte2(int n)
 #pragma mark フラッシュ書込要求
 -(void)vsido_w
 {
-    NSLog(@"%s: not implemented yet", __PRETTY_FUNCTION__);
-    abort();
+    [self send:'w'];
 }
 
 #pragma mark IO設定
