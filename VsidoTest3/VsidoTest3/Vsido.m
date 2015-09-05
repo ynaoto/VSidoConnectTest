@@ -143,9 +143,8 @@
 
 @implementation IKSetReq
 
--(id)initWithIkf:(uint8_t)ikf kid:(uint8_t)kid kdt:(NSArray *)kdt
+-(id)initWithKid:(uint8_t)kid kdt:(NSArray *)kdt
 {
-    NSAssert1(0 <= ikf && ikf <= 254, @"IKF out of range (%d)", ikf);
     NSAssert1(0 <= kid && kid <= 5, @"KID out of range (%d)", kid);
     for (int i = 0; i < kdt.count; i++) {
         uint8_t n = [kdt[i] intValue];
@@ -154,7 +153,6 @@
     
     self = [super init];
     if (self) {
-        _ikf = ikf;
         _kid = kid;
         _kdt = kdt;
     }
@@ -575,12 +573,13 @@ static Byte byte2(int n)
 }
 
 #pragma mark IK設定
--(void)vsido_k:(NSArray *)ikSetReq
+-(void)vsido_k:(NSArray *)ikSetReq ikf:(uint8_t)ikf
 {
+    NSAssert1(0 <= ikf && ikf <= 254, @"IKF out of range (%d)", ikf);
     NSMutableArray *data = [NSMutableArray array];
+    [data addObject:@(ikf)];
     for (int i = 0; i < ikSetReq.count; i++) {
         IKSetReq *req = ikSetReq[i];
-        [data addObject:@(req.ikf)];
         [data addObject:@(req.kid)];
         for (int j = 0; j < req.kdt.count; j++) {
             [data addObject:req.kdt[j]];

@@ -102,11 +102,10 @@
 
 @interface IKSetReq : NSObject
 
-@property (readonly) uint8_t ikf;
-@property (readonly) uint8_t kid; // ???
+@property (readonly) uint8_t kid;
 @property (readonly) NSArray *kdt;
 
--(id)initWithIkf:(uint8_t)ikf kid:(uint8_t)kid kdt:(NSArray*)kdt;
+-(id)initWithKid:(uint8_t)kid kdt:(NSArray*)kdt;
 
 @end
 
@@ -210,7 +209,7 @@ typedef struct __attribute__((packed)) {
 -(void)vsido_i:(NSArray*)ioSetReq; // IO設定
 -(void)vsido_p:(NSArray*)pwmSetReq; // PWM設定
 -(void)vsido_j; // 接続確認要求
--(void)vsido_k:(NSArray*)ikSetReq; // IK設定
+-(void)vsido_k:(NSArray*)ikSetReq ikf:(uint8_t)ikf; // IK設定
 -(void)vsido_t:(NSArray*)walkSetReq; // 移動情報指定
 -(void)vsido_a; // 加速度センサ値要求
 -(void)vsido_v; // 電源電圧値

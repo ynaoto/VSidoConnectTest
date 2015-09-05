@@ -15,18 +15,12 @@ class IKParamsViewController: NSViewController {
     var kid: UInt8!
     
     var 有効: Bool = false
-    var 現在値要求_位置: Bool = false
-    var 現在値要求_姿勢: Bool = false
-    var 現在値要求_トルク: Bool = false
-    var 目標値設定_位置: Bool = false
     var 目標値設定_位置x: Int8 = 0
     var 目標値設定_位置y: Int8 = 0
     var 目標値設定_位置z: Int8 = 0
-    var 目標値設定_姿勢: Bool = false
     var 目標値設定_姿勢x: Int8 = 0
     var 目標値設定_姿勢y: Int8 = 0
     var 目標値設定_姿勢z: Int8 = 0
-    var 目標値設定_トルク: Bool = false
     var 目標値設定_トルクx: Int8 = 0
     var 目標値設定_トルクy: Int8 = 0
     var 目標値設定_トルクz: Int8 = 0

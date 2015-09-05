@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="IKParamsViewController" customModule="VsidoTest3" customModuleProvider="target">
@@ -12,7 +12,7 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView translatesAutoresizingMaskIntoConstraints="NO" id="x9z-7E-5h5" userLabel="View">
-            <rect key="frame" x="0.0" y="0.0" width="338" height="130"/>
+            <rect key="frame" x="0.0" y="0.0" width="255" height="130"/>
             <subviews>
                 <button translatesAutoresizingMaskIntoConstraints="NO" id="BYe-dF-enX" userLabel="Check">
                     <rect key="frame" x="6" y="106" width="48" height="18"/>
@@ -24,126 +24,16 @@
                         <binding destination="-2" name="value" keyPath="self.有効" id="nGM-Jx-A4k"/>
                     </connections>
                 </button>
-                <box autoresizesSubviews="NO" title="現在値要求" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="1is-Pc-wVV">
-                    <rect key="frame" x="-3" y="-4" width="81" height="104"/>
+                <box autoresizesSubviews="NO" ambiguous="YES" misplaced="YES" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="6Wv-X0-Hdi">
+                    <rect key="frame" x="-3" y="9" width="261" height="91"/>
                     <view key="contentView">
-                        <rect key="frame" x="1" y="1" width="79" height="88"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="pdr-ev-OF7" userLabel="位置">
-                                <rect key="frame" x="2" y="60" width="75" height="29"/>
-                                <subviews>
-                                    <button tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rXU-GA-6jX" userLabel="Check">
-                                        <rect key="frame" x="6" y="-2" width="64" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="W4w-Bh-oWz"/>
-                                        </constraints>
-                                        <buttonCell key="cell" type="check" title="位置" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="2Oe-4p-f9e" userLabel="Check">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.現在値要求_位置" id="YXA-a8-akx"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="rXU-GA-6jX" firstAttribute="leading" secondItem="pdr-ev-OF7" secondAttribute="leading" constant="8" id="6jh-ho-Ijd"/>
-                                    <constraint firstAttribute="width" constant="75" id="AI7-ba-yc1"/>
-                                    <constraint firstAttribute="centerY" secondItem="rXU-GA-6jX" secondAttribute="centerY" id="E6E-Ba-af5"/>
-                                    <constraint firstAttribute="height" secondItem="rXU-GA-6jX" secondAttribute="height" id="jlq-sO-YFP"/>
-                                    <constraint firstAttribute="height" constant="29" id="omx-y0-2bT"/>
-                                </constraints>
-                            </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Kb1-GQ-XPN" userLabel="姿勢">
-                                <rect key="frame" x="2" y="31" width="75" height="29"/>
-                                <subviews>
-                                    <button tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Uji-se-Cme" userLabel="Check">
-                                        <rect key="frame" x="6" y="-2" width="64" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="lJk-et-qBb"/>
-                                        </constraints>
-                                        <buttonCell key="cell" type="check" title="*姿勢" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="6zj-G5-1nM" userLabel="Check">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.現在値要求_姿勢" id="w7Y-M7-xM8"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="636-Ef-VN4"/>
-                                    <constraint firstAttribute="centerY" secondItem="Uji-se-Cme" secondAttribute="centerY" id="ZSB-0Y-xHl"/>
-                                    <constraint firstAttribute="height" constant="29" id="ape-hj-z13"/>
-                                    <constraint firstAttribute="height" secondItem="Uji-se-Cme" secondAttribute="height" id="d0T-nf-APN"/>
-                                    <constraint firstItem="Uji-se-Cme" firstAttribute="leading" secondItem="Kb1-GQ-XPN" secondAttribute="leading" constant="8" id="oKj-ws-UDP"/>
-                                </constraints>
-                            </customView>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="pR7-Wp-PjW" userLabel="トルク">
-                                <rect key="frame" x="2" y="2" width="75" height="29"/>
-                                <subviews>
-                                    <button tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bsW-YT-BQ1" userLabel="Check">
-                                        <rect key="frame" x="6" y="-2" width="64" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="i32-l0-IWw"/>
-                                        </constraints>
-                                        <buttonCell key="cell" type="check" title="*トルク" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="x7c-P6-y8i" userLabel="Check">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.現在値要求_トルク" id="ewJ-2J-ued"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="centerY" secondItem="bsW-YT-BQ1" secondAttribute="centerY" id="E39-wW-sKO"/>
-                                    <constraint firstAttribute="width" constant="75" id="Kb4-y8-WQz"/>
-                                    <constraint firstItem="bsW-YT-BQ1" firstAttribute="leading" secondItem="pR7-Wp-PjW" secondAttribute="leading" constant="8" id="dr6-gF-Izq"/>
-                                    <constraint firstAttribute="height" constant="29" id="gU6-Ko-gor"/>
-                                    <constraint firstAttribute="height" secondItem="bsW-YT-BQ1" secondAttribute="height" id="sRE-HO-XBN"/>
-                                </constraints>
-                            </customView>
-                        </subviews>
-                    </view>
-                    <constraints>
-                        <constraint firstItem="Kb1-GQ-XPN" firstAttribute="leading" secondItem="1is-Pc-wVV" secondAttribute="leading" id="SZJ-g0-CDK"/>
-                        <constraint firstAttribute="height" constant="100" id="VHc-IC-LYe"/>
-                        <constraint firstItem="pR7-Wp-PjW" firstAttribute="top" secondItem="Kb1-GQ-XPN" secondAttribute="bottom" id="Wcm-VD-0vU"/>
-                        <constraint firstItem="pdr-ev-OF7" firstAttribute="leading" secondItem="1is-Pc-wVV" secondAttribute="leading" id="dBc-En-iFh"/>
-                        <constraint firstItem="pdr-ev-OF7" firstAttribute="top" secondItem="1is-Pc-wVV" secondAttribute="top" constant="14" id="fRb-FU-Rgq"/>
-                        <constraint firstItem="Kb1-GQ-XPN" firstAttribute="top" secondItem="pdr-ev-OF7" secondAttribute="bottom" id="gve-yp-9Ha"/>
-                        <constraint firstAttribute="width" constant="75" id="jOc-si-pYy"/>
-                        <constraint firstItem="pR7-Wp-PjW" firstAttribute="leading" secondItem="1is-Pc-wVV" secondAttribute="leading" id="sQt-Cj-NZ7"/>
-                    </constraints>
-                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
-                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <font key="titleFont" size="11" name="HiraKakuProN-W3"/>
-                </box>
-                <box autoresizesSubviews="NO" title="目標値設定" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="6Wv-X0-Hdi">
-                    <rect key="frame" x="80" y="-4" width="261" height="104"/>
-                    <view key="contentView">
-                        <rect key="frame" x="1" y="1" width="259" height="88"/>
+                        <rect key="frame" x="1" y="1" width="259" height="89"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="eZS-oh-2zd" userLabel="位置">
-                                <rect key="frame" x="2" y="60" width="256" height="29"/>
+                                <rect key="frame" x="2" y="61" width="256" height="29"/>
                                 <subviews>
-                                    <button tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Pay-NR-5p7" userLabel="Check">
-                                        <rect key="frame" x="6" y="-2" width="64" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="Db2-nx-U5a"/>
-                                        </constraints>
-                                        <buttonCell key="cell" type="check" title="位置" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="ovr-fm-L8f" userLabel="Check">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.目標値設定_位置" id="vXn-Pz-3ie"/>
-                                        </connections>
-                                    </button>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="jLS-0x-YFt" userLabel="x">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jLS-0x-YFt" userLabel="x">
                                         <rect key="frame" x="72" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-d9-HH6" userLabel="Text">
@@ -184,7 +74,7 @@
                                             <constraint firstItem="Xhd-Mu-FfB" firstAttribute="leading" secondItem="ih5-d9-HH6" secondAttribute="trailing" id="gQr-hc-kmX"/>
                                         </constraints>
                                     </customView>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ab7-MM-wfU" userLabel="y">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ab7-MM-wfU" userLabel="y">
                                         <rect key="frame" x="134" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sSZ-Oz-byN" userLabel="Text">
@@ -224,7 +114,7 @@
                                             <constraint firstAttribute="centerY" secondItem="4AN-Wi-5Jk" secondAttribute="centerY" id="mQa-o4-ot2"/>
                                         </constraints>
                                     </customView>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="ubM-uU-mmd" userLabel="z">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ubM-uU-mmd" userLabel="z">
                                         <rect key="frame" x="196" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6sE-9K-tpk" userLabel="Text">
@@ -264,43 +154,34 @@
                                             <constraint firstAttribute="centerY" secondItem="fMF-o2-7QL" secondAttribute="centerY" id="sFW-hK-Mmo"/>
                                         </constraints>
                                     </customView>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZuW-TP-mbf">
+                                        <rect key="frame" x="18" y="6" width="30" height="17"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="位置" id="Bzq-xf-iZe">
+                                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="centerY" secondItem="ubM-uU-mmd" secondAttribute="centerY" id="3N4-Wv-xEP"/>
-                                    <constraint firstItem="Pay-NR-5p7" firstAttribute="leading" secondItem="eZS-oh-2zd" secondAttribute="leading" constant="8" id="3OM-Vf-lkc"/>
                                     <constraint firstItem="Ab7-MM-wfU" firstAttribute="width" secondItem="ubM-uU-mmd" secondAttribute="width" id="9xt-5f-MS6"/>
                                     <constraint firstAttribute="width" constant="256" id="9zz-3f-8EL"/>
                                     <constraint firstItem="Ab7-MM-wfU" firstAttribute="leading" secondItem="jLS-0x-YFt" secondAttribute="trailing" constant="8" id="B0A-ma-oZy"/>
                                     <constraint firstAttribute="centerY" secondItem="jLS-0x-YFt" secondAttribute="centerY" id="DwE-oI-jbm"/>
                                     <constraint firstItem="Ab7-MM-wfU" firstAttribute="height" secondItem="ubM-uU-mmd" secondAttribute="height" id="O1g-gt-RKI"/>
                                     <constraint firstItem="Ab7-MM-wfU" firstAttribute="width" secondItem="jLS-0x-YFt" secondAttribute="width" id="Pey-4o-VD2"/>
-                                    <constraint firstItem="jLS-0x-YFt" firstAttribute="leading" secondItem="Pay-NR-5p7" secondAttribute="trailing" constant="4" id="VBK-10-9p6"/>
                                     <constraint firstItem="Ab7-MM-wfU" firstAttribute="height" secondItem="jLS-0x-YFt" secondAttribute="height" id="Xxt-ww-gdI"/>
                                     <constraint firstAttribute="centerY" secondItem="Ab7-MM-wfU" secondAttribute="centerY" id="a3g-0W-es1"/>
-                                    <constraint firstAttribute="height" secondItem="Pay-NR-5p7" secondAttribute="height" id="cJs-b0-vXp"/>
-                                    <constraint firstAttribute="centerY" secondItem="Pay-NR-5p7" secondAttribute="centerY" id="hmJ-qm-c5a"/>
                                     <constraint firstAttribute="height" constant="29" id="maj-h6-qow"/>
                                     <constraint firstAttribute="height" secondItem="jLS-0x-YFt" secondAttribute="height" id="w51-JH-p6C"/>
                                     <constraint firstItem="ubM-uU-mmd" firstAttribute="leading" secondItem="Ab7-MM-wfU" secondAttribute="trailing" constant="8" id="ymh-rk-id5"/>
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="GgR-z8-l1j" userLabel="姿勢">
-                                <rect key="frame" x="2" y="31" width="256" height="29"/>
+                                <rect key="frame" x="2" y="32" width="256" height="29"/>
                                 <subviews>
-                                    <button tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YoE-sO-FIf" userLabel="Check">
-                                        <rect key="frame" x="6" y="-2" width="64" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="Jds-sM-9cg"/>
-                                        </constraints>
-                                        <buttonCell key="cell" type="check" title="*姿勢" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="VHO-8L-9Ha" userLabel="Check">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.目標値設定_姿勢" id="bot-6Y-cT2"/>
-                                        </connections>
-                                    </button>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="Pwn-un-1hX" userLabel="x">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pwn-un-1hX" userLabel="x">
                                         <rect key="frame" x="72" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="cbq-z1-N0z" userLabel="Text">
@@ -341,7 +222,7 @@
                                             <constraint firstAttribute="centerY" secondItem="cbq-z1-N0z" secondAttribute="centerY" id="y4a-bk-YlG"/>
                                         </constraints>
                                     </customView>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="1yd-oC-1BK" userLabel="y">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1yd-oC-1BK" userLabel="y">
                                         <rect key="frame" x="134" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KsE-hr-UT8" userLabel="Text">
@@ -381,7 +262,7 @@
                                             <constraint firstAttribute="centerY" secondItem="j8a-I6-qeJ" secondAttribute="centerY" id="wY5-Ij-9PH"/>
                                         </constraints>
                                     </customView>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="mrR-Rt-Nxy" userLabel="z">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mrR-Rt-Nxy" userLabel="z">
                                         <rect key="frame" x="196" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GuA-Ca-IzK" userLabel="Text">
@@ -421,17 +302,21 @@
                                             <constraint firstAttribute="centerY" secondItem="GuA-Ca-IzK" secondAttribute="centerY" id="gIJ-cZ-sJ0"/>
                                         </constraints>
                                     </customView>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yON-yM-cWd">
+                                        <rect key="frame" x="18" y="6" width="35" height="17"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="*姿勢" id="bKi-vu-jvf">
+                                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Pwn-un-1hX" firstAttribute="leading" secondItem="YoE-sO-FIf" secondAttribute="trailing" constant="4" id="0P5-nf-bSh"/>
                                     <constraint firstItem="1yd-oC-1BK" firstAttribute="width" secondItem="mrR-Rt-Nxy" secondAttribute="width" id="9yu-6t-WQd"/>
-                                    <constraint firstAttribute="centerY" secondItem="YoE-sO-FIf" secondAttribute="centerY" id="ChA-4G-bw9"/>
-                                    <constraint firstItem="YoE-sO-FIf" firstAttribute="leading" secondItem="GgR-z8-l1j" secondAttribute="leading" constant="8" id="D9X-ci-PFz"/>
                                     <constraint firstAttribute="height" secondItem="Pwn-un-1hX" secondAttribute="height" id="ElE-9o-y2h"/>
                                     <constraint firstAttribute="centerY" secondItem="Pwn-un-1hX" secondAttribute="centerY" id="Qek-er-4mf"/>
                                     <constraint firstAttribute="height" constant="29" id="UFH-If-r5g"/>
                                     <constraint firstItem="mrR-Rt-Nxy" firstAttribute="leading" secondItem="1yd-oC-1BK" secondAttribute="trailing" constant="8" id="WNG-Qn-EL1"/>
-                                    <constraint firstAttribute="height" secondItem="YoE-sO-FIf" secondAttribute="height" id="ZtE-Vs-p9r"/>
                                     <constraint firstItem="1yd-oC-1BK" firstAttribute="leading" secondItem="Pwn-un-1hX" secondAttribute="trailing" constant="8" id="Zwr-EP-ROg"/>
                                     <constraint firstItem="1yd-oC-1BK" firstAttribute="height" secondItem="mrR-Rt-Nxy" secondAttribute="height" id="fih-VE-zrP"/>
                                     <constraint firstItem="1yd-oC-1BK" firstAttribute="height" secondItem="Pwn-un-1hX" secondAttribute="height" id="hoc-jl-Dhc"/>
@@ -442,22 +327,9 @@
                                 </constraints>
                             </customView>
                             <customView translatesAutoresizingMaskIntoConstraints="NO" id="Gue-al-TPJ" userLabel="トルク">
-                                <rect key="frame" x="2" y="2" width="256" height="29"/>
+                                <rect key="frame" x="2" y="3" width="256" height="29"/>
                                 <subviews>
-                                    <button tag="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pS1-5K-vSl" userLabel="Check">
-                                        <rect key="frame" x="6" y="-2" width="64" height="33"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="60" id="q62-4E-AZg"/>
-                                        </constraints>
-                                        <buttonCell key="cell" type="check" title="*トルク" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="2h3-ha-bJM" userLabel="Check">
-                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <binding destination="-2" name="value" keyPath="self.目標値設定_トルク" id="2XX-PG-Te4"/>
-                                        </connections>
-                                    </button>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="cSc-Ap-MkE" userLabel="x">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSc-Ap-MkE" userLabel="x">
                                         <rect key="frame" x="72" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8Al-gg-JlO" userLabel="Text">
@@ -498,7 +370,7 @@
                                             <constraint firstAttribute="width" constant="54" id="nMD-KR-T3k"/>
                                         </constraints>
                                     </customView>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="ynA-LV-vXG" userLabel="y">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ynA-LV-vXG" userLabel="y">
                                         <rect key="frame" x="134" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KLC-VG-8lN" userLabel="Text">
@@ -538,7 +410,7 @@
                                             <constraint firstItem="KLC-VG-8lN" firstAttribute="leading" secondItem="ynA-LV-vXG" secondAttribute="leading" id="zJs-vr-7SG"/>
                                         </constraints>
                                     </customView>
-                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="tEV-EA-GsJ" userLabel="z">
+                                    <customView ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tEV-EA-GsJ" userLabel="z">
                                         <rect key="frame" x="196" y="0.0" width="54" height="29"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5cH-BW-C5F" userLabel="Text">
@@ -578,9 +450,16 @@
                                             <constraint firstItem="Qde-c8-Gxu" firstAttribute="leading" secondItem="5cH-BW-C5F" secondAttribute="trailing" id="Z1o-11-lM0"/>
                                         </constraints>
                                     </customView>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAL-af-nNO">
+                                        <rect key="frame" x="18" y="6" width="47" height="17"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="*トルク" id="ZlB-jW-mEE">
+                                            <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="pS1-5K-vSl" firstAttribute="leading" secondItem="Gue-al-TPJ" secondAttribute="leading" constant="8" id="4T7-Xl-697"/>
                                     <constraint firstItem="ynA-LV-vXG" firstAttribute="height" secondItem="cSc-Ap-MkE" secondAttribute="height" id="7Zo-YD-m17"/>
                                     <constraint firstItem="ynA-LV-vXG" firstAttribute="width" secondItem="cSc-Ap-MkE" secondAttribute="width" id="Cns-aP-gEV"/>
                                     <constraint firstAttribute="centerY" secondItem="tEV-EA-GsJ" secondAttribute="centerY" id="Kg8-Sr-6ek"/>
@@ -588,14 +467,11 @@
                                     <constraint firstItem="ynA-LV-vXG" firstAttribute="height" secondItem="tEV-EA-GsJ" secondAttribute="height" id="Y13-3u-WJK"/>
                                     <constraint firstAttribute="width" constant="256" id="Zp4-9h-tNF"/>
                                     <constraint firstAttribute="height" secondItem="cSc-Ap-MkE" secondAttribute="height" id="a24-g5-ThD"/>
-                                    <constraint firstAttribute="height" secondItem="pS1-5K-vSl" secondAttribute="height" id="dYj-Od-VMj"/>
-                                    <constraint firstItem="cSc-Ap-MkE" firstAttribute="leading" secondItem="pS1-5K-vSl" secondAttribute="trailing" constant="4" id="jyL-Kv-G27"/>
                                     <constraint firstAttribute="centerY" secondItem="ynA-LV-vXG" secondAttribute="centerY" id="kMg-eQ-xx3"/>
                                     <constraint firstAttribute="centerY" secondItem="cSc-Ap-MkE" secondAttribute="centerY" id="nzX-ZK-SZ7"/>
                                     <constraint firstItem="tEV-EA-GsJ" firstAttribute="leading" secondItem="ynA-LV-vXG" secondAttribute="trailing" constant="8" id="qkm-gC-o0O"/>
                                     <constraint firstAttribute="height" constant="29" id="tUX-4V-J0f"/>
                                     <constraint firstItem="ynA-LV-vXG" firstAttribute="leading" secondItem="cSc-Ap-MkE" secondAttribute="trailing" constant="8" id="wJO-56-OTp"/>
-                                    <constraint firstAttribute="centerY" secondItem="pS1-5K-vSl" secondAttribute="centerY" id="xzz-yn-I2V"/>
                                 </constraints>
                             </customView>
                         </subviews>
@@ -603,8 +479,8 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="255" id="1UW-2e-F9C"/>
                         <constraint firstItem="GgR-z8-l1j" firstAttribute="top" secondItem="eZS-oh-2zd" secondAttribute="bottom" id="6a4-jo-7N3"/>
-                        <constraint firstAttribute="height" constant="100" id="A9G-l3-Cac"/>
-                        <constraint firstItem="eZS-oh-2zd" firstAttribute="top" secondItem="6Wv-X0-Hdi" secondAttribute="top" constant="14" id="D58-Q3-0Wz"/>
+                        <constraint firstAttribute="height" constant="85" id="A9G-l3-Cac"/>
+                        <constraint firstItem="eZS-oh-2zd" firstAttribute="top" secondItem="6Wv-X0-Hdi" secondAttribute="top" constant="-2" id="D58-Q3-0Wz"/>
                         <constraint firstItem="Gue-al-TPJ" firstAttribute="top" secondItem="GgR-z8-l1j" secondAttribute="bottom" id="LZy-EB-8VZ"/>
                         <constraint firstItem="GgR-z8-l1j" firstAttribute="leading" secondItem="6Wv-X0-Hdi" secondAttribute="leading" id="dev-vs-cb1"/>
                         <constraint firstItem="Gue-al-TPJ" firstAttribute="leading" secondItem="6Wv-X0-Hdi" secondAttribute="leading" id="rsj-CH-CqU"/>
@@ -616,16 +492,12 @@
                 </box>
             </subviews>
             <constraints>
-                <constraint firstItem="1is-Pc-wVV" firstAttribute="top" secondItem="BYe-dF-enX" secondAttribute="bottom" constant="8" id="Cir-Pd-2TV"/>
                 <constraint firstItem="BYe-dF-enX" firstAttribute="leading" secondItem="x9z-7E-5h5" secondAttribute="leading" constant="8" id="DJ5-JW-zWJ"/>
                 <constraint firstAttribute="height" constant="130" id="QQg-SN-FaX"/>
                 <constraint firstItem="BYe-dF-enX" firstAttribute="top" secondItem="x9z-7E-5h5" secondAttribute="top" constant="8" id="eBQ-Fa-Y4X"/>
-                <constraint firstAttribute="width" constant="338" id="nNj-hN-Bhh"/>
-                <constraint firstItem="6Wv-X0-Hdi" firstAttribute="leading" secondItem="1is-Pc-wVV" secondAttribute="trailing" constant="8" id="oQY-xY-Wdt"/>
-                <constraint firstItem="1is-Pc-wVV" firstAttribute="leading" secondItem="x9z-7E-5h5" secondAttribute="leading" id="omt-b3-qol"/>
-                <constraint firstItem="6Wv-X0-Hdi" firstAttribute="top" secondItem="1is-Pc-wVV" secondAttribute="top" id="whM-Rg-jCp"/>
+                <constraint firstAttribute="width" constant="255" id="nNj-hN-Bhh"/>
             </constraints>
-            <point key="canvasLocation" x="207" y="146"/>
+            <point key="canvasLocation" x="165.5" y="146"/>
         </customView>
     </objects>
 </document>

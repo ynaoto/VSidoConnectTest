@@ -826,8 +826,8 @@
                             <customView misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wdk-31-LJL" userLabel="右上腕ロール">
                                 <rect key="frame" x="20" y="504" width="699" height="18"/>
                                 <subviews>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="koc-Fk-YrI" userLabel="ラベル">
-                                        <rect key="frame" x="-2" y="0.0" width="82" height="17"/>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="koc-Fk-YrI" userLabel="ラベル">
+                                        <rect key="frame" x="-2" y="-1" width="82" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="koc-Fk-YrI" secondAttribute="height" multiplier="78:17" id="YVa-Gz-mTL"/>
                                         </constraints>
@@ -837,7 +837,7 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dvx-4k-VKT" userLabel="数値">
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dvx-4k-VKT" userLabel="数値">
                                         <rect key="frame" x="84" y="-1" width="44" height="17"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Dvx-4k-VKT" secondAttribute="height" multiplier="40:17" id="fd2-VT-OaS"/>
@@ -851,7 +851,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右上腕ロール.値" id="xHN-rV-cm1"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-md-ISn">
                                         <rect key="frame" x="131" y="-3" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="yBd-1y-tZa"/>
                                         <connections>
@@ -898,7 +898,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右前腕ピッチ.値" id="7tp-5B-qZw"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rEn-m0-kxt">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="TB6-1L-ukl"/>
                                         <connections>
@@ -945,7 +945,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左上腕ピッチ.値" id="7OT-OY-DwC"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="DhW-LF-Qay">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhW-LF-Qay">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="bXE-Z5-lpl"/>
                                         <connections>
@@ -1133,7 +1133,7 @@
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右大腿ピッチ.値" id="16t-hD-qRS"/>
                                         </connections>
                                     </textField>
-                                    <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3fP-k6-Vkk">
+                                    <slider verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3fP-k6-Vkk">
                                         <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="rBP-Sh-lw6"/>
                                         <connections>
@@ -1181,7 +1181,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="O5g-RP-rXL">
-                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="xEP-Pl-Pf5"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="右大腿ロール.値" id="Eae-P6-3Q1"/>
@@ -1416,7 +1416,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eGb-ov-svW">
-                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="ALU-9Z-AQu"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左大腿ピッチ.値" id="oIm-5F-ubU"/>
@@ -1463,7 +1463,7 @@
                                         </connections>
                                     </textField>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zN9-Tx-Syg">
-                                        <rect key="frame" x="132" y="-2" width="569" height="20"/>
+                                        <rect key="frame" x="131" y="-2" width="569" height="20"/>
                                         <sliderCell key="cell" continuous="YES" state="on" alignment="left" minValue="-1440" maxValue="1440" tickMarkPosition="above" sliderType="linear" id="JOe-XP-14j"/>
                                         <connections>
                                             <binding destination="XfG-lQ-9wD" name="value" keyPath="左大腿ロール.値" id="K2x-1G-S5b"/>
@@ -2136,7 +2136,7 @@
             <objects>
                 <viewController title="IK制御" id="M0l-NC-d1v" customClass="IKViewController" customModule="VsidoTest3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="PHi-JT-h3T">
-                        <rect key="frame" x="0.0" y="0.0" width="724" height="463"/>
+                        <rect key="frame" x="0.0" y="0.0" width="684" height="463"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8yV-vo-hx9">
@@ -2150,19 +2150,19 @@
                                 </connections>
                             </button>
                             <containerView translatesAutoresizingMaskIntoConstraints="NO" id="poa-Eh-oTU" userLabel="体幹Container View">
-                                <rect key="frame" x="20" y="296" width="338" height="130"/>
+                                <rect key="frame" x="140" y="296" width="255" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="0qW-Ap-9qc"/>
-                                    <constraint firstAttribute="width" constant="338" id="RYl-jb-tSr"/>
+                                    <constraint firstAttribute="width" constant="255" id="RYl-jb-tSr"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="NVe-T4-YSi" kind="embed" identifier="体幹" id="lZZ-Mf-d4a"/>
                                 </connections>
                             </containerView>
                             <containerView translatesAutoresizingMaskIntoConstraints="NO" id="tmS-C1-4fU" userLabel="頭部Container View">
-                                <rect key="frame" x="366" y="296" width="338" height="130"/>
+                                <rect key="frame" x="403" y="296" width="255" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="338" id="2Qa-Jd-lA1"/>
+                                    <constraint firstAttribute="width" constant="255" id="2Qa-Jd-lA1"/>
                                     <constraint firstAttribute="height" constant="130" id="CTc-j1-I6E"/>
                                 </constraints>
                                 <connections>
@@ -2170,19 +2170,19 @@
                                 </connections>
                             </containerView>
                             <containerView translatesAutoresizingMaskIntoConstraints="NO" id="mZf-9P-qgB" userLabel="右手Container View">
-                                <rect key="frame" x="20" y="158" width="338" height="130"/>
+                                <rect key="frame" x="140" y="158" width="255" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="Bkf-sg-sXD"/>
-                                    <constraint firstAttribute="width" constant="338" id="z3u-4r-KbA"/>
+                                    <constraint firstAttribute="width" constant="255" id="z3u-4r-KbA"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="NVe-T4-YSi" kind="embed" identifier="右手" id="M3S-cX-W7M"/>
                                 </connections>
                             </containerView>
                             <containerView translatesAutoresizingMaskIntoConstraints="NO" id="rAy-Vx-lcT" userLabel="左手Container View">
-                                <rect key="frame" x="366" y="158" width="338" height="130"/>
+                                <rect key="frame" x="403" y="158" width="255" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="338" id="Kdy-XX-5bg"/>
+                                    <constraint firstAttribute="width" constant="255" id="Kdy-XX-5bg"/>
                                     <constraint firstAttribute="height" constant="130" id="obE-oT-9c7"/>
                                 </constraints>
                                 <connections>
@@ -2190,9 +2190,9 @@
                                 </connections>
                             </containerView>
                             <containerView translatesAutoresizingMaskIntoConstraints="NO" id="dzr-0G-I4v" userLabel="右足Container View">
-                                <rect key="frame" x="20" y="20" width="338" height="130"/>
+                                <rect key="frame" x="140" y="20" width="255" height="130"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="338" id="eLw-8u-DQS"/>
+                                    <constraint firstAttribute="width" constant="255" id="eLw-8u-DQS"/>
                                     <constraint firstAttribute="height" constant="130" id="nO7-c7-qCc"/>
                                 </constraints>
                                 <connections>
@@ -2200,37 +2200,134 @@
                                 </connections>
                             </containerView>
                             <containerView translatesAutoresizingMaskIntoConstraints="NO" id="a8J-0j-9gz" userLabel="左足Container View">
-                                <rect key="frame" x="366" y="20" width="338" height="130"/>
+                                <rect key="frame" x="403" y="20" width="255" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="HHV-XX-pb0"/>
-                                    <constraint firstAttribute="width" constant="338" id="VMU-c9-25O"/>
+                                    <constraint firstAttribute="width" constant="255" id="VMU-c9-25O"/>
                                 </constraints>
                                 <connections>
                                     <segue destination="NVe-T4-YSi" kind="embed" identifier="左足" id="Dfs-Gi-7RE"/>
                                 </connections>
                             </containerView>
+                            <box autoresizesSubviews="NO" title="目標値設定" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="QdF-eO-Zbm">
+                                <rect key="frame" x="17" y="241" width="106" height="110"/>
+                                <view key="contentView">
+                                    <rect key="frame" x="1" y="1" width="104" height="94"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="043-5X-jxa">
+                                            <rect key="frame" x="16" y="68" width="48" height="18"/>
+                                            <buttonCell key="cell" type="check" title="位置" bezelStyle="regularSquare" imagePosition="left" inset="2" id="vNI-GA-Idu">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <binding destination="g9j-LZ-sPz" name="value" keyPath="values.目標値設定_位置" id="jyP-PP-1Kt"/>
+                                            </connections>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Skc-N1-Fbl">
+                                            <rect key="frame" x="16" y="41" width="61" height="18"/>
+                                            <buttonCell key="cell" type="check" title="*姿勢" bezelStyle="regularSquare" imagePosition="left" inset="2" id="m3c-QJ-2uU">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <binding destination="g9j-LZ-sPz" name="value" keyPath="values.目標値設定_姿勢" id="Whf-6s-9Sh"/>
+                                            </connections>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wTK-8Z-6rm">
+                                            <rect key="frame" x="16" y="13" width="65" height="18"/>
+                                            <buttonCell key="cell" type="check" title="*トルク" bezelStyle="regularSquare" imagePosition="left" inset="2" id="zPj-VY-Yvz">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <binding destination="g9j-LZ-sPz" name="value" keyPath="values.目標値設定_トルク" id="E7s-z1-Abs"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JDC-U9-4HY"/>
+                                    <constraint firstAttribute="width" secondItem="QdF-eO-Zbm" secondAttribute="height" multiplier="58:35" constant="-76" id="dLR-De-GYn"/>
+                                </constraints>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <font key="titleFont" size="11" name="HiraKakuProN-W3"/>
+                            </box>
+                            <box autoresizesSubviews="NO" title="現在値要求" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="9yc-5x-fKl">
+                                <rect key="frame" x="17" y="102" width="106" height="114"/>
+                                <view key="contentView">
+                                    <rect key="frame" x="1" y="1" width="104" height="98"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FiD-KV-06X">
+                                            <rect key="frame" x="16" y="72" width="48" height="18"/>
+                                            <buttonCell key="cell" type="check" title="位置" bezelStyle="regularSquare" imagePosition="left" inset="2" id="aYR-RI-TQG">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <binding destination="g9j-LZ-sPz" name="value" keyPath="values.現在値要求_位置" id="jUH-ob-awD"/>
+                                            </connections>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ldl-QZ-a0w">
+                                            <rect key="frame" x="16" y="45" width="61" height="18"/>
+                                            <buttonCell key="cell" type="check" title="*姿勢" bezelStyle="regularSquare" imagePosition="left" inset="2" id="RGN-MM-Kbq">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <binding destination="g9j-LZ-sPz" name="value" keyPath="values.現在値要求_姿勢" id="0di-M4-Tvh"/>
+                                            </connections>
+                                        </button>
+                                        <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9CM-Cq-uI4">
+                                            <rect key="frame" x="16" y="17" width="65" height="18"/>
+                                            <buttonCell key="cell" type="check" title="*トルク" bezelStyle="regularSquare" imagePosition="left" inset="2" id="0op-vf-lLy">
+                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                <font key="font" size="13" name="HiraKakuProN-W3"/>
+                                            </buttonCell>
+                                            <connections>
+                                                <binding destination="g9j-LZ-sPz" name="value" keyPath="values.現在値要求_トルク" id="dfe-Ih-6fU"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9yc-5x-fKl" secondAttribute="height" multiplier="3:7" constant="52.857142857142861" id="zvF-rJ-RUH"/>
+                                </constraints>
+                                <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                                <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <font key="titleFont" size="11" name="HiraKakuProN-W3"/>
+                            </box>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="9yc-5x-fKl" firstAttribute="leading" secondItem="PHi-JT-h3T" secondAttribute="leading" constant="20" id="2I5-d1-hVm"/>
+                            <constraint firstItem="poa-Eh-oTU" firstAttribute="leading" secondItem="QdF-eO-Zbm" secondAttribute="trailing" constant="20" id="BcZ-Dk-Bhz"/>
                             <constraint firstItem="mZf-9P-qgB" firstAttribute="top" secondItem="poa-Eh-oTU" secondAttribute="bottom" constant="8" id="Dt8-iC-AFJ"/>
-                            <constraint firstItem="mZf-9P-qgB" firstAttribute="leading" secondItem="PHi-JT-h3T" secondAttribute="leading" constant="20" id="FIX-Kb-7sS"/>
                             <constraint firstItem="rAy-Vx-lcT" firstAttribute="top" secondItem="tmS-C1-4fU" secondAttribute="bottom" constant="8" id="FMv-Vj-W08"/>
                             <constraint firstItem="a8J-0j-9gz" firstAttribute="leading" secondItem="dzr-0G-I4v" secondAttribute="trailing" constant="8" id="H5l-65-80B"/>
                             <constraint firstItem="tmS-C1-4fU" firstAttribute="top" secondItem="PHi-JT-h3T" secondAttribute="top" constant="37" id="I6A-zP-hzy"/>
+                            <constraint firstItem="QdF-eO-Zbm" firstAttribute="width" secondItem="9yc-5x-fKl" secondAttribute="width" id="Kog-kv-EYb"/>
                             <constraint firstItem="dzr-0G-I4v" firstAttribute="top" secondItem="mZf-9P-qgB" secondAttribute="bottom" constant="8" id="LOJ-BD-uUb"/>
-                            <constraint firstItem="dzr-0G-I4v" firstAttribute="leading" secondItem="PHi-JT-h3T" secondAttribute="leading" constant="20" id="SPP-rv-pW5"/>
-                            <constraint firstItem="poa-Eh-oTU" firstAttribute="leading" secondItem="PHi-JT-h3T" secondAttribute="leading" constant="20" id="b77-Tt-Xyh"/>
+                            <constraint firstItem="QdF-eO-Zbm" firstAttribute="top" secondItem="PHi-JT-h3T" secondAttribute="top" constant="112" id="N8S-91-NX2"/>
+                            <constraint firstItem="poa-Eh-oTU" firstAttribute="leading" secondItem="mZf-9P-qgB" secondAttribute="leading" id="Yf2-jo-6OA"/>
                             <constraint firstItem="a8J-0j-9gz" firstAttribute="top" secondItem="rAy-Vx-lcT" secondAttribute="bottom" constant="8" id="ffX-mE-Jti"/>
                             <constraint firstItem="poa-Eh-oTU" firstAttribute="top" secondItem="PHi-JT-h3T" secondAttribute="top" constant="37" id="fmT-E1-AQ3"/>
                             <constraint firstItem="rAy-Vx-lcT" firstAttribute="leading" secondItem="mZf-9P-qgB" secondAttribute="trailing" constant="8" id="fy4-3V-Asx"/>
                             <constraint firstItem="8yV-vo-hx9" firstAttribute="top" secondItem="PHi-JT-h3T" secondAttribute="top" constant="8" id="g3d-Uu-Gpo"/>
+                            <constraint firstItem="dzr-0G-I4v" firstAttribute="leading" secondItem="mZf-9P-qgB" secondAttribute="leading" id="jca-Zp-zwG"/>
                             <constraint firstItem="tmS-C1-4fU" firstAttribute="leading" secondItem="poa-Eh-oTU" secondAttribute="trailing" constant="8" id="mmm-6K-9bH"/>
+                            <constraint firstItem="QdF-eO-Zbm" firstAttribute="leading" secondItem="PHi-JT-h3T" secondAttribute="leading" constant="20" id="nvE-h3-k45"/>
                             <constraint firstItem="8yV-vo-hx9" firstAttribute="leading" secondItem="PHi-JT-h3T" secondAttribute="leading" constant="20" id="tWw-Ms-Aa8"/>
+                            <constraint firstItem="9yc-5x-fKl" firstAttribute="top" secondItem="QdF-eO-Zbm" secondAttribute="bottom" constant="29" id="xEJ-1p-sAi"/>
                         </constraints>
                     </view>
                 </viewController>
                 <customObject id="IT8-Ki-nMA" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController id="g9j-LZ-sPz"/>
             </objects>
-            <point key="canvasLocation" x="1510" y="168.5"/>
+            <point key="canvasLocation" x="1490" y="168.5"/>
         </scene>
         <!--Params View Controller-->
         <scene sceneID="RYM-UI-kYZ">
@@ -2243,7 +2340,7 @@
                 </viewController>
                 <customObject id="YHh-QU-8a1" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2230" y="169"/>
+            <point key="canvasLocation" x="2172" y="169"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
